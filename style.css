@@ -1,0 +1,40 @@
+/*
+https://css-tricks.com/how-to-disable-links/
+*/
+
+.btn-disabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+	pointer-events: none;
+}
+
+.footer-text{
+	line-height: 1.5;
+}
+
+@media (max-width: 300px) {
+  body {
+    background-image: url("https://bio.viditkhandelwal.com/static/xs-background-black-vertical.png");
+		background-position: center;
+  }
+}
+@media (min-width: 301px) and (max-width: 600px) {
+  body {
+    background-image: url("https://bio.viditkhandelwal.com/static/xs-background-black-vertical.png");
+		background-position: center;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  body {
+    background-image: url("https://bio.viditkhandelwal.com/static/xs-background-black-vertical.png");
+		background-position: center;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url("https://bio.viditkhandelwal.com/static/small-background-black-elliptical.png");
+		background-position: center;
+  }
+}
