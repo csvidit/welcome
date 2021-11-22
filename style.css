@@ -2,6 +2,10 @@
 https://css-tricks.com/how-to-disable-links/
 */
 
+body{
+	height: 100%;
+}
+
 .btn-disabled {
   color: currentColor;
   cursor: not-allowed;
